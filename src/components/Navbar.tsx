@@ -52,7 +52,7 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Links */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-3">
             {navLinks.map((link) => (
               <a
                 key={link.label}
@@ -63,11 +63,18 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+919999999999"
+              href="tel:+919997259734"
               className="ml-4 bg-accent hover:bg-accent-100 text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-all flex items-center gap-2"
             >
               <Phone size={14} />
               Call Now
+            </a>
+            <a
+              href="tel:+919997259734"
+              className="bg-white/10 hover:bg-white/20 text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 border border-white/20"
+            >
+              <Phone size={14} />
+              Call
             </a>
           </div>
 
@@ -96,7 +103,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+919999999999"
+              href="tel:+919997259734"
               className="block mt-3 bg-accent hover:bg-accent-100 text-white px-4 py-3 rounded-lg text-sm font-semibold text-center transition-all"
             >
               <Phone size={14} className="inline mr-2" />

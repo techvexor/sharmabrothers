@@ -54,10 +54,10 @@ export default function Contact() {
                 <div>
                   <h4 className="text-primary font-bold mb-1">Call Us</h4>
                   <a
-                    href="tel:+919999999999"
+                    href="tel:+919997259734"
                     className="text-secondary hover:text-accent transition-colors text-sm"
                   >
-                    +91 99999 99999
+                    +91 99972 59734
                   </a>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                 <div>
                   <h4 className="text-primary font-bold mb-1">WhatsApp</h4>
                   <a
-                    href="https://wa.me/919999999999"
+                    href="https://wa.me/919997259734"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-secondary hover:text-accent transition-colors text-sm"
