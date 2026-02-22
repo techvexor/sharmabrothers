@@ -45,7 +45,7 @@ export default function App() {
               latitude: 28.12,
               longitude: 77.54,
             },
-            telephone: '+919999999999',
+            telephone: '+919997259734',
             priceRange: '$$',
             openingHoursSpecification: {
               '@type': 'OpeningHoursSpecification',
